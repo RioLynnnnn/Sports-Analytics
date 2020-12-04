@@ -1,15 +1,11 @@
-# Name 
-# CS 544
-# Final Project
-
 # -- Preparing the data
 # : https://www.kaggle.com/ronitf/heart-disease-uci
 # We are reading our data
 heart <- read.csv('heart.csv', stringsAsFactors=FALSE)
 str(heart)
-# select ï..age, sex, thalach, target
+# select Ã¯..age, sex, thalach, target
 
-vars <- c('ï..age', "sex", "thalach", "target")
+vars <- c('Ã¯..age', "sex", "thalach", "target")
 
 # Only interested in heart disease data
 heart <- heart[vars]
